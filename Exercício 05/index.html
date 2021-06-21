@@ -3,30 +3,51 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Exercício 05</title>
+        <title>Exercício 04</title>
     </head>
     <body>
-        <header>
-            <h1>Titulo do site</h1>
-        </header>
-        <nav>
-            <a href="#">Link 1</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 1</a>
-        </nav>  
-        <section>
-            <article>
-                <h2>Titulo do artigo</h2>
-                <time>12/12/2012</time>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id semper risus in hendrerit gravida rutrum quisque non tellus. Integer vitae justo eget magna fermentum iaculis eu non. Egestas purus viverra accumsan in. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Urna molestie at elementum eu facilisis sed odio morbi. Nisl nunc mi ipsum faucibus vitae. Ultrices sagittis orci a scelerisque purus semper eget duis. Sapien eget mi proin sed. Odio eu feugiat pretium nibh ipsum consequat nisl vel. Augue eget arcu dictum varius duis at consectetur. Mus mauris vitae ultricies leo. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere.</p>
-            </article>
-            <p>Por *******</p>
-        </section>
-        <aside></aside>
-        <footer><u>IF FLUMINENSE - DGTI</u></footer>
-
+        <h1>Tabelas</h1>
+        <h2>Célula com 2 colunas:</h2>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefone</th>
+            </tr>
+            <tr>
+                <td>José das Colves</td>
+                <td>(22) 2728-6677</td>
+                <td>(22) 2728-7766</td>
+            </tr>
+        </table>
+        <h2>Célula com 2 linhas:</h2>
+        <table border="1">
+            <tr>
+                <th>Nome:</th>
+                <td>José das Colves</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telefone:</th>
+                <td>(22) 2728-6677</td>
+            </tr>
+            <tr>
+                <td>(22) 2728-7766</td>
+            </tr>
+        </table>
+        <h2>Tabela com Legenda</h2>
+        <table border="1">
+           <caption>Total de despesas por mês</caption>
+           <tr>
+               <th>Mês</th>
+               <th>Total</th>
+           </tr>
+           <tr>
+               <td>Janeiro</td>
+               <td>R$ 1.500,00</td>
+           </tr>
+           <tr>
+                <td>Fevereiro</td>
+                <td>R$ 1.470,00</td>
+            </tr>
+        </table>
     </body>
 </html>
