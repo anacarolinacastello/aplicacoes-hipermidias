@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>Exercício 05</title>
+    </head>
+    <body>
+        <form id="form">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="field">
+                    <label class="field1" for="nome">Nome: </label>
+                    <input type="text" name="nome">
+                    <label class="field1" for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome">
+                </div>
+                <div class="field">
+                    <label class="field1" for="dia">Nascimento:</label>
+                    <input type="text" name="dia" size="1" placeholder="dd">
+                    <input type="text" name="mes" size="1" placeholder="mm">
+                    <input type="text" name="ano" size="1" placeholder="aaaa">
+                </div>
+                <div class="field">
+                    <label class="field1" for="rg">RG: </label>
+                    <input type="text" name="rg">
+                </div>
+                <div class="field">
+                    <label class="field1" for="cpf">CPF: </label>
+                    <input type="text" name="cpf" size="6">
+                    <label for="cpfdg">-</label>
+                    <input type="text" name="cpfdg" size="1">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de Endereço</legend>
+                <div class="field">
+                    <label class="field2" for="rua">Rua: </label>
+                    <input type="text" name="rua">
+                </div>
+                <div class="field">
+                    <label class="field2" for="numero">Numero: </label>
+                    <input type="number" name="numero">
+                </div>
+                <div class="field">
+                    <label class="field2" for="bairro">Bairro:</label>
+                    <input type="text" name="bairro">
+                </div>
+                <div class="field">
+                    <label class="field2" for="estado">Estado:</label>
+                    <select name="estado"> 
+                        <option value="AC">Acre</option> 
+                        <option value="AL">Alagoas</option> 
+                        <option value="AM">Amazonas</option> 
+                        <option value="AP">Amapá</option> 
+                        <option value="BA">Bahia</option> 
+                        <option value="CE">Ceará</option> 
+                        <option value="DF">Distrito Federal</option> 
+                        <option value="ES">Espírito Santo</option> 
+                        <option value="GO">Goiás</option> 
+                        <option value="MA">Maranhão</option> 
+                        <option value="MT">Mato Grosso</option> 
+                        <option value="MS">Mato Grosso do Sul</option> 
+                        <option value="MG">Minas Gerais</option> 
+                        <option value="PA">Pará</option> 
+                        <option value="PB">Paraíba</option> 
+                        <option value="PR">Paraná</option> 
+                        <option value="PE">Pernambuco</option> 
+                        <option value="PI">Piauí</option> 
+                        <option value="RJ">Rio de Janeiro</option> 
+                        <option value="RN">Rio Grande do Norte</option> 
+                        <option value="RO">Rondônia</option> 
+                        <option value="RS">Rio Grande do Sul</option> 
+                        <option value="RR">Roraima</option> 
+                        <option value="SC">Santa Catarina</option> 
+                        <option value="SE">Sergipe</option> 
+                        <option value="SP">São Paulo</option> 
+                        <option value="TO">Tocantins</option> 
+                </select>
+                </div>
+                <div class="field">
+                    <label class="field2" for="Cidade">Cidade: </label>
+                    <input type="text" name="cidade">
+                </div>
+                <div class="field">
+                    <label class="field2" for="cep">CEP: </label>
+                    <input type="text" name="cep" size="6">
+                    <label for="cepdg">-</label>
+                    <input type="text" name="cepdg" size="1">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de Login</legend>
+                <div class="field">
+                    <label class="field3" for="email">E-mail:</label>
+                    <input type="email">
+                </div>
+                <div class="field">
+                    <label class="field3" for="foto">Imagem de perfil:</label>
+                    <input type="file">
+                </div>
+                <div class="field">
+                    <label class="field3" for="login">Login de usuário:</label>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <label class="field3" for="senha">Senha</label>
+                    <input type="password">
+                </div>
+                <div class="field">
+                    <label class="field3" for="senhaconfirma">Confirme a senha:</label>
+                    <input type="password">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Pesquisa de Interesse:</legend>
+                <div class="field">
+                    <label class="field4" for="trabalhar">Você deseja trabalhar como Webmaster?</label>
+                    <input type="radio" id="sim" name="trabalhar" value="sim">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="trabalhar" value="nao">
+                    <label for="nao">Não</label>
+                    <input type="radio" id="talvez" name="trabalhar" value="talvez">
+                    <label for="nao">Talvez</label>
+                    <input type="radio" id="quemsabe" name="trabalhar" value="quemsabe">
+                    <label for="nao">Quem sabe</label>
+                </div>
+                <div class="field">
+                    <label class="field4" for="trabalhar">O que você deseja aprender?</label>
+                    <input type="checkbox" id="html" name="linguagens" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="linguagens" value="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" id="javascript" name="linguagens" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id="django" name="linguagens" value="django">
+                    <label for="django">Django</label>             
+                </div>
+                <div class="field">
+                    <label class="field4" for="comentario">Deixe seu comentário:</label>
+                    <textarea rows="10" cols="40" maxlength="500"></textarea>
+                </div>
+            </fieldset>
+        </form> 
+        <button type="submit" form="form" value="submit">Enviar</button>
+        <button type="reset" form="form" value="reset">Limpar</button>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+fieldset{
+    padding: 15px;
+}
+input{
+    display: flex;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+.field1{
+
+    display: flex;
+    width: 90px;
+    margin-left: 10px;
+}
+.field2{
+
+    display: flex;
+    width: 65px;
+    margin-left: 10px;
+}
+.field3{
+
+    display: flex;
+    width: 125px;
+    margin-left: 10px;
+}
+.field4{
+
+    display: flex;
+    width: 270px;
+    margin-left: 10px;
+}
+button{
+    margin: 20px 0 10px 4px;
+}
+
+
