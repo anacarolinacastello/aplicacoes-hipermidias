@@ -94,6 +94,7 @@ a {
   grid-area: c;
   padding: 150px 0 0 35px;
   background-color: #dddddd;
+  border: solid 1px black;
 }
 .c div {
   background-color: rgba(128, 128, 128, 0.383);
