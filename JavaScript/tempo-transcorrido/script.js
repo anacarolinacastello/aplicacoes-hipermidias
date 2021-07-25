@@ -1,5 +1,7 @@
-let dataEntrada = new Date(2010, 07, 14);
+let dataEntrada = new Date(2021, 06, 25);
 let dataAtual = new Date();
+
+tempoTranscorrido(dataEntrada, dataAtual);
 
 function tempoTranscorrido(a, b) {
   let tempo = dataAtual - dataEntrada;
@@ -9,7 +11,6 @@ function tempoTranscorrido(a, b) {
   let anosCount = mesesCount * 12;
 
   let anos = Math.floor(tempo / anosCount);
-
   tempo = tempo - anos * anosCount;
   let meses = Math.floor(tempo / mesesCount);
   tempo = tempo - meses * mesesCount;
@@ -19,4 +20,3 @@ function tempoTranscorrido(a, b) {
     `Tempo transcorrido: ${anos} anos ${meses + 1} meses ${dias} dias`
   );
 }
-tempoTranscorrido(dataEntrada, dataAtual);
