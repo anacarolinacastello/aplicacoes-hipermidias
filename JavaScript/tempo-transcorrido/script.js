@@ -1,4 +1,4 @@
-let dataEntrada = new Date(2021, 06, 25);
+let dataEntrada = new Date(2021, 07, 25);
 let dataAtual = new Date();
 
 tempoTranscorrido(dataEntrada, dataAtual);
