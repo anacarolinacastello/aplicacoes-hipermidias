@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Reserva</h1>
+    <div>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" class="name" name="name" id="name" />
+        <label for="telefone">Telefone:</label>
+
+        <input type="text" class="telefone" name="telefone" id="telefone" />
+        <label for="chegada">Data chegada:</label>
+
+        <input type="date" class="chegada" name="chegada" id="chegada" />
+        <label for="saida">Data saida:</label>
+        <input type="date" class="saida" name="saida" id="saida" />
+        <label for="quarto">Quarto:</label>
+        <select name="quarto" id="quarto">
+          <option>Single</option>
+          <option>Double</option>
+          <option>Triplo</option>
+        </select>
+        <label for="kids">Criança adicional ? (menores de 5 anos):</label>
+        <input type="number" class="kids" name="kids" id="kids" />
+        <button type="submit" onclick="teste()" id="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
