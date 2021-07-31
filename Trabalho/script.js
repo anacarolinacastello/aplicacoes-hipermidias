@@ -26,7 +26,7 @@ function teste() {
   if (quarto.value === 'Double') {
     if (kids.value <= 2) {
       let valorCrianca = kids.value * 30;
-      let subTotal = 139 + valorCrianca;
+      let subTotal = 220 + valorCrianca;
       let result = tempoTranscorrido(dataChegada.value, dataSaida.value);
       let conversao = new Date(result);
       let dia = conversao.getDay() - 3;
@@ -40,7 +40,7 @@ function teste() {
   if (quarto.value === 'Triplo') {
     if (kids.value <= 1) {
       let valorCrianca = kids.value * 30;
-      let subTotal = 139 + valorCrianca;
+      let subTotal = 340 + valorCrianca;
       let result = tempoTranscorrido(dataChegada.value, dataSaida.value);
       let conversao = new Date(result);
       let dia = conversao.getDay() - 3;
