@@ -1,6 +1,4 @@
 function teste() {
-  let name = document.getElementById('name');
-  let telefone = document.getElementById('telefone');
   let dataChegada = document.getElementById('chegada');
   let dataSaida = document.getElementById('saida');
   let quarto = document.getElementById('quarto');
