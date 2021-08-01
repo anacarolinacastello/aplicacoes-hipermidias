@@ -1,5 +1,4 @@
-#p,
-#a,
-#b {
-  display: none;
+body {
+  display: flex;
+  flex-direction: column;
 }
